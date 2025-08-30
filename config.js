@@ -41,7 +41,7 @@ const sequelize =
         logging: DEBUG,
       });
 
-const SESSION_STRING = process.env.SESSION || process.env.SESSION_ID;
+const SESSION_STRING = process.env.SESSION || process.env.SESSION_ID;RGNK~DSHva14O
 
 const SESSION = SESSION_STRING
   ? SESSION_STRING.split(",").map((s) => s.split("~")[1].trim())
@@ -66,7 +66,7 @@ const baseConfig = {
   VERSION,
   ALIVE:
     process.env.ALIVE ||
-    "_I am alive! (use .setalive help for custom alive msg)_",
+    "_Killua is here ! (use .setalive help for custom alive msg)_",
   BLOCK_CHAT: process.env.BLOCK_CHAT || "",
   PM_ANTISPAM: convertToBool(process.env.PM_ANTISPAM) || "",
   ALWAYS_ONLINE: convertToBool(process.env.ALWAYS_ONLINE) || false,
@@ -115,25 +115,25 @@ const baseConfig = {
     "78c84c62b32a88e86daf87dd509a657a",
   ],
   RG: process.env.RG || "919074309534-1632403322@g.us,120363116963909366@g.us",
-  BOT_INFO: process.env.BOT_INFO || "𝖱𝖺𝗀𝖺𝗇𝗈𝗋𝗄;𝖱𝗒𝗓𝖾𝗇;default",
+  BOT_INFO: process.env.BOT_INFO || "Killua;𝖱𝗒𝗓𝖾𝗇;default",
   RBG_KEY: process.env.RBG_KEY || "",
   ALLOWED: process.env.ALLOWED || "91,94,2",
   NOT_ALLOWED: process.env.NOT_ALLOWED || "852",
   CHATBOT: process.env.CHATBOT || "off",
   HANDLERS: process.env.HANDLERS || ".,",
-  STICKER_DATA: process.env.STICKER_DATA || "Raganork",
-  BOT_NAME: process.env.BOT_NAME || "Raganork",
+  STICKER_DATA: process.env.STICKER_DATA || "Killua",
+  BOT_NAME: process.env.BOT_NAME || "Killua",
   AUDIO_DATA:
     process.env.AUDIO_DATA === undefined || process.env.AUDIO_DATA === "private"
-      ? "ꪶ͢٭𝑺𝜣𝑼𝑹𝛢𝑽𝑲𝑳¹¹ꫂ;Raganork MD bot;https://i.imgur.com/P7ziVhr.jpeg"
+      ? "ꪶ͢٭𝒦𝒾𝓁𝓁𝒶 ♫ ✌︎ꫂ;Killua bot;https://ibb.co/jvLZtczx"
       : process.env.AUDIO_DATA,
   TAKE_KEY: process.env.TAKE_KEY || "",
   CMD_REACTION: convertToBool(process.env.CMD_REACTION) || false,
   MODE: process.env.MODE || "private",
-  WARN: process.env.WARN || "4",
+  WARN: process.env.WARN || "3",
   ANTILINK_WARN: process.env.ANTILINK_WARN || "",
   ANTI_DELETE: convertToBool(process.env.ANTI_DELETE) || false,
-  SUDO: process.env.SUDO || "",
+  SUDO: process.env.SUDO || "2348137961918,2348164454273"
   LANGUAGE: process.env.LANGUAGE || "english",
   ACR_A: "ff489a0160188cf5f0750eaf486eee74",
   ACR_S: "ytu3AdkCu7fkRVuENhXxs9jsOW4YJtDXimAWMpJp",
@@ -282,3 +282,4 @@ Object.defineProperty(config, "debug", {
 });
 
 module.exports = config;
+
