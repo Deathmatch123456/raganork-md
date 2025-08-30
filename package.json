@@ -1,5 +1,5 @@
 {
-  "name": "raganork-md",
+  "name": "killua-md",
   "version": "6.1.55",
   "description": "A multi functional wa bot.",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "baileys",
     "raganork"
   ],
-  "author": "Sourav K",
+  "author": "Killua",
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "@vitalets/google-translate-api": "^9.2.1",
@@ -42,3 +42,4 @@
     "youtube-sr": "^4.3.11"
   }
 }
+
